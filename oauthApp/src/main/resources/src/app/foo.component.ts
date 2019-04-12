@@ -56,6 +56,10 @@ import {ApiInfo, ApiStatusSummery, AppService, Foo, Location} from './app.servic
       <div class="col-sm-12">
         <button class="btn btn-primary" (click)="processApiInfo()" type="submit">New Status</button>
       </div>
+      <h3>Below are the other metrics url for more statstics</h3>
+      <a href="http://localhost:8080/api/metric">http://localhost:8080/api/metric</a>
+      <a href="http://localhost:8080/api/metric-graph">http://localhost:8080/api/metric-graph</a>
+      <a href="http://localhost:8080/api/status-metric">http://localhost:8080/api/status-metric</a>
     </div>
 </div>`
 })
